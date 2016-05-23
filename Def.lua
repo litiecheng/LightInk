@@ -1,5 +1,5 @@
 -- this is a test
-LightInkDef__:register_def_message(1, 565661, "TestDef",
+LightInkDef__:register_def_message(2, 33388, "TestDef",
 									LightInkTypeDef__.T_Integer, -- int aaaa //this is aaaa
 									LightInkTypeDef__.T_ArrayStart, -- array<TestStruct> cccc //this test struct
 									-- TestStruct  ////this a struct
@@ -21,7 +21,7 @@ LightInkDef__:register_def_message(1, 565661, "TestDef",
 									nil)
 
 -- this is a test
-LightInkDef__:register_def_message(2, 84232, "TestDef",
+LightInkDef__:register_def_message(3, 288217, "TestDef",
 									LightInkTypeDef__.T_Integer, -- int bbbb //this is bbbb
 									nil)
 

@@ -9,9 +9,10 @@ local typedef = {
 	map = {"LightInkTypeDef__.T_MapStart", "LightInkTypeDef__.T_MapEnd"},
 }
 local serverType = {
-	Loader = 1,
-	Client = 2,
-	Gateway = 3,
+	Control = 1,
+	Loader = 2,
+	Client = 3,
+	Gateway = 4,
 }
 local tabStr = "\t\t\t\t\t\t\t\t\t"
 
