@@ -15,9 +15,16 @@ Loader:
 	
 	
 	
-Client:int bbbb 
-	//this is bbbb
-}TestStruct//this a struct
+Client:
+	int bbbb
+	int cccc
+	int dddd
+	int eeee
+	int ffff
+	int gggg
+}
+
+TestStruct//this a struct
 {
 	map <int, map < int , int > > ddd //this ddddddddd
 	int aaaa//this aaaa
