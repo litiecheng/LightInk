@@ -1,32 +1,30 @@
 
 
-TestDef 
-//this is a test
+
+ControlLoginLoader //Control Login Loader
 {
 Loader:
-	int aaaa 
-	//this is aaaa
-	array<TestStruct> cccc 
-	//this test struct
-	
-	
-	map<int, int> dddd 
-	// this test map
-	
-	
-	
-Client:
-	int bbbb
-	int cccc
-	int dddd
-	int eeee
-	int ffff
-	int gggg
+	string user;
+	string password;
+
+Control:
+	string result; //login result
 }
 
-TestStruct//this a struct
+
+ControlCmdLineLoader // Control send Cmd to Loader
 {
-	map <int, map < int , int > > ddd //this ddddddddd
-	int aaaa//this aaaa
-	int bbbb//this bbbb
+Loader:
+	string cmdLine;
+Control:
+	string result; //login result
 }
+
+ControlKillLoader // Control kill Loader
+{
+Loader:
+	
+}
+
+
+

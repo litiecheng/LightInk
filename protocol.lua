@@ -41,9 +41,9 @@ function convert_protocol(srcPath, destPath)
 	local opcodeList = {}
 	local protocolStr = {}
 	local get_opcode = function()
-		local opcode = math.random(1, 1000000)
+		local opcode = math.random(1025, 1000000)
 		while opcodeList[opcode] do
-			opcode = math.random(1, 1000000)
+			opcode = math.random(1025, 1000000)
 		end
 		opcodeList[opcode] = true
 		return opcode

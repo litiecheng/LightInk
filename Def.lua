@@ -1,32 +1,25 @@
--- this is a test
-LightInkDef__:register_def_message(2, 806696, "TestDef",
-									LightInkTypeDef__.T_Integer, -- int aaaa //this is aaaa
-									LightInkTypeDef__.T_ArrayStart, -- array<TestStruct> cccc //this test struct
-									-- TestStruct  ////this a struct
-									LightInkTypeDef__.T_MapStart, -- map<int,map<int,int>> ddd //this ddddddddd
-									LightInkTypeDef__.T_Integer, -- int  //
-									LightInkTypeDef__.T_MapStart, -- map<int,int>  //
-									LightInkTypeDef__.T_Integer, -- int  //
-									LightInkTypeDef__.T_Integer, -- int  //
-									LightInkTypeDef__.T_MapEnd, -- map<int,int>  //
-									LightInkTypeDef__.T_MapEnd, -- map<int,map<int,int>> ddd //this ddddddddd
-									LightInkTypeDef__.T_Integer, -- int aaaa //this aaaa
-									LightInkTypeDef__.T_Integer, -- int bbbb //this bbbb
-									-- TestStruct  ////this a struct
-									LightInkTypeDef__.T_ArrayEnd, -- array<TestStruct> cccc //this test struct
-									LightInkTypeDef__.T_MapStart, -- map<int,int> dddd // this test map
-									LightInkTypeDef__.T_Integer, -- int  //
-									LightInkTypeDef__.T_Integer, -- int  //
-									LightInkTypeDef__.T_MapEnd, -- map<int,int> dddd // this test map
+-- Control send Cmd to Loader
+LightInkDef__:register_def_message(2, 548118, "ControlCmdLineLoader",
+									LightInkTypeDef__.T_String, -- string cmdLine //
 									nil)
 
--- this is a test
-LightInkDef__:register_def_message(3, 902006, "TestDef",
-									LightInkTypeDef__.T_Integer, -- int bbbb //
-									LightInkTypeDef__.T_Integer, -- int cccc //
-									LightInkTypeDef__.T_Integer, -- int dddd //
-									LightInkTypeDef__.T_Integer, -- int eeee //
-									LightInkTypeDef__.T_Integer, -- int ffff //
-									LightInkTypeDef__.T_Integer, -- int gggg //
+-- Control send Cmd to Loader
+LightInkDef__:register_def_message(1, 53798, "ControlCmdLineLoader",
+									LightInkTypeDef__.T_String, -- string result //login result
+									nil)
+
+-- Control kill Loader
+LightInkDef__:register_def_message(2, 636166, "ControlKillLoader",
+									nil)
+
+-- Control Login Loader
+LightInkDef__:register_def_message(2, 365042, "ControlLoginLoader",
+									LightInkTypeDef__.T_String, -- string user //
+									LightInkTypeDef__.T_String, -- string password //
+									nil)
+
+-- Control Login Loader
+LightInkDef__:register_def_message(1, 927532, "ControlLoginLoader",
+									LightInkTypeDef__.T_String, -- string result //login result
 									nil)
 
