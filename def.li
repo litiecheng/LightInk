@@ -20,11 +20,4 @@ Control:
 	string result; //login result
 }
 
-ControlKillLoader // Control kill Loader
-{
-Loader:
-	
-}
-
-
 
