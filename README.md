@@ -8,7 +8,7 @@ A Net Game Server Engine
 ##win32
 
 * install vs2012
-* open file ./windows/LightInkMsgPack.sln
+* open file ./windows/LightInk.sln
 * build
 * the file output in ./windows/Debug(Release)/
 
