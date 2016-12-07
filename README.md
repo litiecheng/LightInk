@@ -10,7 +10,7 @@ A Net Game Server Engine
 * install vs2012
 * open file ./windows/LightInk.sln
 * build
-* the file output in ./windows/Debug(Release)/
+* the file output in ./bin/Debug(Release)/
 
 ##linux
 
@@ -19,4 +19,4 @@ A Net Game Server Engine
 * cd ./Linux/build
 * cmake ../
 * make
-* the file output in ./Linux/bin/
+* the file output in ./bin/Debug(Release)/
