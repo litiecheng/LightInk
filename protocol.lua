@@ -1,7 +1,10 @@
 
 local typedef = {
 	bool = "LightInkTypeDef__.T_Bool",
-	int = "LightInkTypeDef__.T_Integer",
+	int = "LightInkTypeDef__.T_Int",
+	uint = "LightInkTypeDef__.T_Uint",
+	int64 = "LightInkTypeDef__.T_Int64",
+	uint64 = "LightInkTypeDef__.T_Uint64",
 	float = "LightInkTypeDef__.T_Float",
 	double = "LightInkTypeDef__.T_Double",
 	string = "LightInkTypeDef__.T_String",
