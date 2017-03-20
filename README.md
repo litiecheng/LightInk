@@ -2,17 +2,17 @@
 A Net Game Server Engine
 
 
-#build
+# build
 
 
-##win32
+## win32
 
 * install vs2012
 * open file ./windows/LightInk.sln
 * build
 * the file output in ./bin/Debug(Release)/
 
-##linux
+## linux
 
 * install cmake
 * mkdir ./Linux/build
